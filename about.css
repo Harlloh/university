@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(37, 37, 37);
+  padding: 10px 5%;
+}
+.logo {
+  color: white;
+  margin-right: auto;
+}
+.logo span {
+  color: rgb(236, 76, 76);
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 2rem;
+}
+
+ul li a:hover {
+  color: rgb(236, 76, 76);
+  transition: 0.1s ease 0s;
+}
+.cta {
+  background: none;
+  padding: 5px;
+  color: white;
+  border: solid 1px;
+}
+.cta:hover {
+  background: white;
+  color: blue;
+  transition: 0.5s;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/hero\ image.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+  color: white;
+  justify-content: center;
+
+  font-size: 30px;
+}
+.hero-section h1 {
+  text-align: center;
+  padding-top: 30vh;
+}
+#hero-section {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/brxxto-JcE8f8ix-Uo-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  color: white;
+  font-size: 30px;
+}
+#hero-section h1 {
+  padding: 15rem;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 10px;
+}
+.col {
+  margin: 2em;
+  flex-basis: 45%;
+}
+.col img {
+  height: 25rem;
+  width: 25rem;
+}
+/* .col-text {
+  margin: 40px;
+} */
+.explore {
+  margin-top: 10px;
+  color: rgb(219, 72, 72);
+  background: none;
+  border-style: solid black 1px;
+  padding: 10px;
+  cursor: pointer;
+}
+.explore:hover {
+  color: white;
+  background: rgb(219, 72, 72);
+  transition: 0.4s;
+  border: white 1px;
+  box-shadow: 0.2px 0.2px 5px black;
+}
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+}
+footer h4 {
+  margin: 2px 0 5px 0;
+}
+.contact-form {
+  text-align: center;
+}
+form input,
+form label,
+form textarea {
+  display: block;
+}
+input,
+label,
+textarea {
+  margin: 2rem auto;
+}
